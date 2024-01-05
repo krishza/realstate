@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>view listing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&family=Onest:wght@500;700;800&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    .view-image {
+        width: 100%;
+        display: flex;
+        padding: 16px;
+        padding-left: 16%;
+        padding-right: 16%;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .view-image img {
+        -webkit-transform: scale(.9);
+        transform: scale(1);
+        -webkit-transition: .8s ease-in-out;
+        transition: .3s ease-in-out;
+
+    }
+
+    .view-image img:hover {
+        -webkit-transform: scale(1.6);
+        transform: scale(1.06);
+    }
+
+    /*-------------about-----------------------------*/
+    .view {
+
+        width: 100%;
+        padding: 78px 0px;
+
+    }
+
+    .view img {
+        height: auto;
+        width: 520px;
+    }
+
+    .view img {
+        -webkit-transform: scale(.9);
+        transform: scale(1);
+        -webkit-transition: .8s ease-in-out;
+        transition: .3s ease-in-out;
+
+    }
+
+    .view img:hover {
+        -webkit-transform: scale(1.6);
+        transform: scale(1.06);
+    }
+
+    .content-para {
+        width: 558px;
+    }
+
+    .view-content {
+        width: 1130px;
+        max-width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+    .content-para h4 {
+        color: rgba(79, 79, 79, 0.709);
+        font-size: 20px;
+        margin-top: 10px;
+        letter-spacing: 2px;
+        padding-left: 20px;
+
+    }
+
+
+    .content-para p {
+        padding: 10px 20px;
+        letter-spacing: 1px;
+        font-size: 18px;
+        margin-bottom: 45px;
+    }
+</style>
+
+<body>
+
+    <div class="top-header">
+        <div class="top-header-bar"><img src="icons/message.ico" alt="" width="26px">
+            <h4>info@gmail.com</h4>
+        </div>
+        <div class="top-header-bar"><img src="icons/location.ico" alt="" width="26px">
+            <h4>15/A, Near Tower, NYC</h4>
+        </div>
+        <div class="top-header-icons">
+            <a href="#" class="icon linkedin">
+
+                <span><i class="fab fa-linkedin"></i></span>
+            </a>
+            <a href="#" class="icon facebook">
+
+                <span><i class="fab fa-facebook"></i></span>
+            </a>
+            <a href="#" class="icon instagram">
+
+                <span><i class="fab fa-instagram"></i></span>
+            </a>
+            <a href="#" class="icon twitter">
+
+                <span><i class="fab fa-twitter"></i></span>
+            </a>
+        </div>
+    </div>
+
+
+    <nav>
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+            Estate.<span>Agency</span>
+
+        </div>
+        <div class="nav-items">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html" class="target">About</a></li>
+            <li><a href="property.html">Property</a></li>
+            <li><a href="agents.html">Agents</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </div>
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+        <form action="#">
+            <input type="search" class="search-data" placeholder="Search" required>
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+
+    </nav>
+
+
+
+    <!--------------------------Listing Viewer Section--------------------------------->
+    <div>
+        <img src="img/view2.jpg" alt="" width="100%" height: 50px;>
+    </div>
+
+    <div><img src="img/h7.jpg" alt="" width="100%" style="padding: 20px; padding-left: 100px; padding-right: 100px;">
+    </div>
+    <div class="view-image">
+        <div>
+            <img src="imG/2.jpg" alt="" width="100%">
+        </div>
+        <div>
+            <img src="img/5.jpg" alt="" width="100%">
+        </div>
+    </div>
+
+
+    <section class="view">
+        <div class="view-content">
+            <img src="img/6.jpg" alt="" width="100%">
+            <div class="content-para">
+                <h4>A 2-STORY VILLA IN THE PERFECT LOCATION</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta amet laborum optio aspernatur qui
+                    facilis repudiandae doloremque nulla ea voluptates magni, quo exercitationem voluptatum blanditiis
+                    eum quisquam esse temporibus eos aliquid. Voluptate eum, voluptas eius aliquam ipsa recusandae
+                    placeat molestias minima iste a provident sed non maxime! Vero, a autem?</p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!------------------------------------Footer Section--------------------------------->
+
+    <hr>
+    <div class="footer">
+        <div class="heading">
+            <h2>Estate. <span>Agency</span></h2>
+        </div>
+        <div class="content-sec">
+            <div class="services">
+                <h4>Services</h4>
+                <p><a href="#">Sell</a></p>
+
+                <p><a href="#">Loan</a></p>
+            </div>
+            <div class="social-media">
+                <h4>Social</h4>
+                <p>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </p>
+                <p>
+                    <a href="#"><i class="fab fa-twitter"></i> </a>
+                </p>
+
+                <p>
+                    <a href=""><i class="fab fa-facebook"></i> </a>
+                </p>
+                <p>
+                    <a href=""><i class="fab fa-instagram"></i> </a>
+                </p>
+            </div>
+            <div class="links">
+                <h4>Quick links</h4>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="about.html">About</a></p>
+                <p><a href="property.css">Property</a></p>
+
+                <p><a href="contact.html">Contact</a></p>
+            </div>
+            <div class="details">
+                <h4 class="address">Address</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur <br />
+                    adipisicing elit. Cupiditate, qui!
+                </p>
+                <h4 class="mobile">Mobile</h4>
+                <p><a href="#">+91-12225*****</a></p>
+                <h4 class="mail">Email</h4>
+                <p><a href="#">info@gmail.com</a></p>
+            </div>
+        </div>
+        <footer>
+
+            <hr>
+            © RealEstate.Agency All Rights Reserved.
+        </footer>
+    </div>
+    <script>
+        const menuBtn = document.querySelector(" .menu-icon span"); const
+            searchBtn = document.querySelector(".search-icon"); const cancelBtn = document.querySelector(".cancel-icon");
+        const items = document.querySelector(".nav-items"); const form = document.querySelector("form");
+        menuBtn.onclick = () => {
+            items.classList.add("active");
+            menuBtn.classList.add("hide");
+            searchBtn.classList.add("hide");
+            cancelBtn.classList.add("show");
+        }
+        cancelBtn.onclick = () => {
+            items.classList.remove("active");
+            menuBtn.classList.remove("hide");
+            searchBtn.classList.remove("hide");
+            cancelBtn.classList.remove("show");
+            form.classList.remove("active");
+            cancelBtn.style.color = "#ff3d00";
+        }
+        searchBtn.onclick = () => {
+            form.classList.add("active");
+            searchBtn.classList.add("hide");
+            cancelBtn.classList.add("show");
+        }
+    </script>
+</body>
+
+</html>

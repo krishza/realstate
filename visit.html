@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        background-color: rgba(255, 255, 255, 0);
+
+    }
+
+    .details {
+        width: 280px;
+        margin: auto;
+        border-radius: 5px;
+        height: 300px;
+        margin-top: 100px;
+        justify-content: center;
+        border: 2px solid rgb(37, 37, 37);
+        box-shadow: 10px 20px 18px rgba(0, 0, 0, 0.489);
+        background-color: white;
+        text-decoration: none;
+    }
+
+    .details-content {
+        padding: 50px 0px 20px;
+        font-size: 15px;
+
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif 'Courier New', Courier, monospace;
+    }
+
+    label {
+        display: block;
+        font-weight: 600;
+        overflow: hidden;
+        color: #000000;
+
+    }
+
+    input {
+        margin-top: 5px;
+    }
+
+
+
+    .details-content .btn {
+        display: inline-block;
+        padding: 6px 15px;
+        text-decoration: none;
+        border: 2px solid rgba(0, 119, 40, 0.905);
+        background-color: rgba(0, 152, 51, 0.905);
+        border-radius: 5px;
+        color: #ffffff;
+        margin-top: 10px;
+        font-weight: 600;
+
+    }
+
+    .details-content .btn:hover {
+        background-color: rgb(0, 119, 40);
+        color: white;
+    }
+
+    .box-close {
+        position: absolute;
+        top: 0;
+        right: 2px;
+        color: #000000;
+        text-decoration: none;
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <section>
+        <div class="details">
+            <form action="detail.php">
+                <div class="details-content">
+                    <label for="fname">Full Name:</label>
+                    <input type="text" id="fname" name="fullname" placeholder="Enter full name"><br><br>
+
+                    <label for="mobile">Mobile No:</label>
+                    <input type="number" id="number" name="mobile no" placeholder="Enter mobile no"><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter email"><br><br>
+                    <button class="btn"><a href="#"></a>Submit</button>
+                </div>
+            </form>
+        </div>
+        <a href="#" class="box-close">
+            ×
+        </a>
+    </section>
+</body>
+
+</html>
